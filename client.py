@@ -2,9 +2,11 @@ import platform
 import subprocess
 
 def execute_script(script_path):
+    # python3 solo funciona en mac y linux, en windows se ejecuta con python
+    # hacer 2 clientes separados para windows y para mac/linux
     try:
         print(f"Ejecutando: {script_path}")
-        result = subprocess.run(['python3', script_path], capture_output=True, text=True)
+        result = subprocess.run(['python', script_path], capture_output=True, text=True)
         if result.returncode == 0:
             print(result.stdout)
         else:

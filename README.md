@@ -17,16 +17,7 @@ Este proyecto es una aplicación ligera de monitoreo de hardware que obtiene inf
 Para ejecutar este proyecto, necesitarás tener Python instalado y las siguientes dependencias:
 
 ```bash
-pip install -r requirements.txt
-```
-
-El archivo `requirements.txt` contiene:
-
-```
-psutil
-wmi
-py-cpuinfo
-GPUtil
+pip install --upgrade -r requirements.txt
 ```
 
 ## Instalación
@@ -41,7 +32,7 @@ cd Ntx-Hardware-Monitor
 2. Instala las dependencias:
 
 ```bash
-pip install -r requirements.txt
+pip install --upgrade -r requirements.txt
 ```
 
 ## Uso

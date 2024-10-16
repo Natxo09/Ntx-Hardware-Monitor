@@ -3,3 +3,4 @@ wmi
 pywin32
 GPUtil
 py-cpuinfo
+cpuinfo
